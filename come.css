@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container h1{
+    font-size: 40px;
+   font-style: ;
+   font-family:  cursive;
+}
+
+.nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1rem 10px;
+    background-color: aqua;
+    border-radius: 10%;
+    
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav ul li a{
+    padding: 0px 11px;
+    font-size: 15px;
+    color: blue;
+}
+
+.article{
+    flex-direction: column;
+    background-color: rgb(89, 69, 69);
+    min-height: 50vh;
+    width: 100%;
+
+}
+
+.article h2{
+    color: brown;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
