@@ -42,15 +42,23 @@
 
 .article{
     flex-direction: column;
-    background-color: rgb(89, 69, 69);
+    background-image: (url(laptop.jpeg));
     min-height: 50vh;
     width: 100%;
 
 }
 
 .article h2{
-    color: brown;
+    color: rgb(244, 24, 24);
     font-size: 30px;
     align-items: center;
     justify-content: center;
+}
+
+.content li{
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
 }
